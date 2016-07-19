@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Carlos Meza
+	email = carlos@digitalr00ts.com
+[push]
+	default = simple
+[credential]
+	helper = gnome-keyring
