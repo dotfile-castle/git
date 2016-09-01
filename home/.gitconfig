@@ -1,9 +1,20 @@
 # This is Git's per-user configuration file.
+[core]
+	editor = vim
 [user]
 	name = Carlos Meza
 	email = carlos@digitalr00ts.com
 [push]
 	default = simple
 [credential]
-	# helper = cache --timeout=3600
-	helper = gnome-keyring
+	helper = cache --timeout=3600
+	# helper = gnome-keyring
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
