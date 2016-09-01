@@ -1,6 +1,7 @@
 # This is Git's per-user configuration file.
 [core]
 	editor = vim
+	askpass =
 [user]
 	name = Carlos Meza
 	email = carlos@digitalr00ts.com
